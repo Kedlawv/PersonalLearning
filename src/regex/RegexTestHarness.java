@@ -5,6 +5,8 @@ import java.util.Scanner;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
+//https://docs.oracle.com/javase/tutorial/essential/regex/test_harness.html
+
 public class RegexTestHarness {
 
     public static void main(String[] args){
