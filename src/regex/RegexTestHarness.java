@@ -21,7 +21,7 @@ public class RegexTestHarness {
 
             System.out.println("\nEnter your regex: ");
             Pattern pattern =
-                    Pattern.compile(scanner.next());
+                    Pattern.compile(scanner.next(),Pattern.CASE_INSENSITIVE);
 
             System.out.println("\nEnter input string to search: ");
             Matcher matcher =
