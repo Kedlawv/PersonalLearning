@@ -1,7 +1,7 @@
-package main.java.caveOfPrgr.designPatterns.mvc.view;
+package caveOfPrgr.designPatterns.mvc.view;
 
-import main.java.caveOfPrgr.designPatterns.mvc.controller.Controller;
-import main.java.caveOfPrgr.designPatterns.mvc.model.Model;
+import caveOfPrgr.designPatterns.mvc.controller.Controller;
+import caveOfPrgr.designPatterns.mvc.model.Model;
 
 import javax.swing.*;
 import java.awt.*;

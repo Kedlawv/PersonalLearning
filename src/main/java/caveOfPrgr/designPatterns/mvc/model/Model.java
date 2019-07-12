@@ -1,4 +1,4 @@
-package main.java.caveOfPrgr.designPatterns.mvc.model;
+package caveOfPrgr.designPatterns.mvc.model;
 
 public class Model {
 }

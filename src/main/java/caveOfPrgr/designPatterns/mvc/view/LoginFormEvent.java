@@ -1,4 +1,4 @@
-package main.java.caveOfPrgr.designPatterns.mvc.view;
+package caveOfPrgr.designPatterns.mvc.view;
 
 public class LoginFormEvent {
     private String name;
