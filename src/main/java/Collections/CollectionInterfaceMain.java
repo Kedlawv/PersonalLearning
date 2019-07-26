@@ -66,7 +66,7 @@ public class CollectionInterfaceMain {
         stringCollection.retainAll(Arrays.asList("Three"));
         System.out.println("stringCollection after keeping \"Three\" :" + stringCollection);
 
-        // Collection to Array
+        // Collection to Array____________________
         System.out.println();
 
         Object[] col2arrObj = checkString.toArray();
@@ -76,6 +76,7 @@ public class CollectionInterfaceMain {
         String[] col2arrType = checkString.toArray(new String[0]);
         System.out.println("getClass on col2arrType == " + col2arrType.getClass());
         System.out.println("getClass on element 0 of col2arrType == " + col2arrType[0].getClass());
+
 
 
 
