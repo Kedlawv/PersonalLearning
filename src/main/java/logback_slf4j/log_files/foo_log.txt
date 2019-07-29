@@ -1,0 +1,2 @@
+19:11:52.556 [main] DEBUG logback_slf4j.Foo - Foo logging. 1
+19:23:02.003 [main] DEBUG logback_slf4j.Foo - Foo logging. 1

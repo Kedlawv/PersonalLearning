@@ -1,0 +1,30 @@
+17:47:33.692 [main] DEBUG logback_slf4j.Foo - I did it again. 1
+17:52:06.120 [main] DEBUG logback_slf4j.Foo - I did it again. 1
+17:53:26.589 [main] DEBUG logback_slf4j.Foo - I did it again. 1
+17:53:47.801 [main] DEBUG logback_slf4j.Foo - I did it again. 1
+17:54:59.957 [main] DEBUG logback_slf4j.Foo - I did it again. 1
+17:55:39.129 [main] INFO  logback_slf4j.LogbackMain - Logger test
+17:55:39.131 [main] INFO  logback_slf4j.LogbackMain - This is not optimised standard concatenation log with variable: 34
+17:55:39.131 [main] INFO  logback_slf4j.LogbackMain - This log uses standard concatenation but checks if info level logging is enabled variable: 34
+17:55:39.132 [main] INFO  logback_slf4j.LogbackMain - This is parameterized log with variable: 34 More convenient way of the example above
+17:55:39.166 [main] DEBUG logback_slf4j.Foo - I did it again. 1
+18:01:04.186 [main] INFO  logback_slf4j.LogbackMain - Logger test
+18:01:04.186 [main] INFO  logback_slf4j.LogbackMain - Logger test
+18:01:04.189 [main] INFO  logback_slf4j.LogbackMain - This is not optimised standard concatenation log with variable: 34
+18:01:04.189 [main] INFO  logback_slf4j.LogbackMain - This is not optimised standard concatenation log with variable: 34
+18:01:04.189 [main] INFO  logback_slf4j.LogbackMain - This log uses standard concatenation but checks if info level logging is enabled variable: 34
+18:01:04.189 [main] INFO  logback_slf4j.LogbackMain - This log uses standard concatenation but checks if info level logging is enabled variable: 34
+18:01:04.189 [main] INFO  logback_slf4j.LogbackMain - This is parameterized log with variable: 34 More convenient way of the example above
+18:01:04.189 [main] INFO  logback_slf4j.LogbackMain - This is parameterized log with variable: 34 More convenient way of the example above
+18:01:04.189 [main] DEBUG logback_slf4j.Foo - I did it again. 1
+18:02:01.417 [main] INFO  logback_slf4j.LogbackMain - Logger test
+18:02:01.420 [main] INFO  logback_slf4j.LogbackMain - This is not optimised standard concatenation log with variable: 34
+18:02:01.420 [main] INFO  logback_slf4j.LogbackMain - This log uses standard concatenation but checks if info level logging is enabled variable: 34
+18:02:01.421 [main] INFO  logback_slf4j.LogbackMain - This is parameterized log with variable: 34 More convenient way of the example above
+18:02:01.421 [main] DEBUG logback_slf4j.Foo - I did it again. 1
+18:05:01.359 [main] INFO  logback_slf4j.LogbackMain - Logger test
+18:05:01.362 [main] INFO  logback_slf4j.LogbackMain - This is not optimised standard concatenation log with variable: 34
+18:05:01.362 [main] INFO  logback_slf4j.LogbackMain - This log uses standard concatenation but checks if info level logging is enabled variable: 34
+18:05:01.362 [main] INFO  logback_slf4j.LogbackMain - This is parameterized log with variable: 34 More convenient way of the example above
+18:05:01.362 [main] DEBUG logback_slf4j.Foo - Foo logging. 1
+18:05:01.363 [main] DEBUG logback_slf4j.Bar - Bar logging. 1

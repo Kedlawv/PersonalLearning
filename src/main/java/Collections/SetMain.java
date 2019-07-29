@@ -57,7 +57,7 @@ public class SetMain {
 
     }
 
-    public static <E> Set<E> removeDups(Collection<E> c) { // todo Dont't understand where
+    public static <E> Set<E> removeDups(Collection<E> c) { // todo Dont't understand what
         return new LinkedHashSet<E>(c);                    // the first generic after static is doing
     }
 

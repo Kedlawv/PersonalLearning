@@ -1,0 +1,48 @@
+<configuration>
+    <statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener"/>
+    <!--    <variable> element is interchangeable with <property>-->
+    <variable name="LOG_DIR" value="src/main/java/logback_slf4j/log_files"/>
+    <property file="src/main/resources/variables.properties" />
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- encoders are assigned the type
+             ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FOOWRITER" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR_FROM_FILE}\foo_log.txt</file>
+        <!-- encoders are assigned the type
+             ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="BARWRITER" class="ch.qos.logback.core.FileAppender">
+        <file>${nestedVar}</file>
+        <!-- encoders are assigned the type
+             ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="logback_slf4j.LogbackMain" level="INFO">
+
+    </logger>
+
+    <logger name="logback_slf4j.Foo" level="DEBUG" additivity="false">
+        <appender-ref ref="FOOWRITER"/>
+    </logger>
+
+    <logger name="logback_slf4j.Bar" level="DEBUG">
+        <appender-ref ref="BARWRITER"/>
+    </logger>
+
+    <root level="DEBUG">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>
